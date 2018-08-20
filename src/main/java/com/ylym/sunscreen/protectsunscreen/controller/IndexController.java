@@ -1,10 +1,10 @@
-package com.ylym.sunscreen.protectsunscreen;
+package com.ylym.sunscreen.protectsunscreen.controller;
 
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
 
 @RestController
-public class SampleController {
+public class IndexController {
 
   @RequestMapping("/")
   public String index() {

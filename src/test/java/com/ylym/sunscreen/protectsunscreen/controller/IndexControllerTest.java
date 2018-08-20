@@ -1,4 +1,4 @@
-package com.ylym.sunscreen.protectsunscreen;
+package com.ylym.sunscreen.protectsunscreen.controller;
 
 import org.junit.Test;
 import org.junit.runner.RunWith;
@@ -16,7 +16,7 @@ import static org.springframework.test.web.servlet.result.MockMvcResultMatchers.
 @RunWith(SpringRunner.class)
 @SpringBootTest
 @AutoConfigureMockMvc
-public class SampleControllerTest {
+public class IndexControllerTest {
 
   @Autowired
   private MockMvc mvc;

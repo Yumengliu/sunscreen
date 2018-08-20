@@ -1,4 +1,4 @@
-package com.ylym.sunscreen.protectsunscreen;
+package com.ylym.sunscreen.protectsunscreen.model;
 
 public class UvResponse {
 

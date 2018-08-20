@@ -1,12 +1,14 @@
-package com.ylym.sunscreen.protectsunscreen;
+package com.ylym.sunscreen.protectsunscreen.controller;
 
+import com.ylym.sunscreen.protectsunscreen.util.OpenUvApiHandler;
+import com.ylym.sunscreen.protectsunscreen.model.UvResponse;
 import org.json.JSONObject;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.RequestParam;
 import org.springframework.web.bind.annotation.RestController;
 
-import static com.ylym.sunscreen.protectsunscreen.UvResponse.UvLevel;
+import static com.ylym.sunscreen.protectsunscreen.model.UvResponse.UvLevel;
 
 @RestController
 public class UvIndexController {

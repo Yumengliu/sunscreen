@@ -1,4 +1,4 @@
-package com.ylym.sunscreen.protectsunscreen;
+package com.ylym.sunscreen.protectsunscreen.util;
 
 import okhttp3.HttpUrl;
 import okhttp3.OkHttpClient;
